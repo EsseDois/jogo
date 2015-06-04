@@ -1,5 +1,13 @@
+/******************************************************************
+
+                [Insira o nome do Jogo Aqui]
+                            por
+                Sophia Klein e Sidarta Correa
+
+******************************************************************/
+
 #include <allegro5/allegro.h>
-#include <allegro5/allegro_primitives.h>				//Our primitive header file
+#include <allegro5/allegro_primitives.h>
 
 const int width = 1024;
 const int height = 480;
