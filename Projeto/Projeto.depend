@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1433734587 source:c:\users\samsung np270\desktop\s2\projeto\main.c
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+
