@@ -5,3 +5,12 @@
 	<allegro5/allegro_font.h>
 	<allegro5/allegro_ttf.h>
 
+1433882273 source:c:\users\aluno\desktop\sophia\jogo\projeto\funcao.c
+	"projeto.h"
+
+1433882363 c:\users\aluno\desktop\sophia\jogo\projeto\projeto.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+

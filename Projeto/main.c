@@ -11,14 +11,8 @@
 
 ******************************************************************/
 
-#include <allegro5/allegro.h>
-#include <allegro5/allegro_primitives.h>
-#include <allegro5/allegro_font.h>
-#include <allegro5/allegro_ttf.h>
+#include "projeto.h"
 
-
-const int width = 1024;
-const int height = 480;
 const int line_height = 14;
 enum telas {TITULO, MENU, SOBRE, INSTRUCOES, JOGAR, SOL1, FA1, SOL2, FA2, PAUSA, FIM};
 int state = TITULO;
@@ -376,15 +370,6 @@ int main(void)
     return 0;
 }
 
-void DrawPentagrama(){
-    int espessura = 2;
-    al_draw_line(15, height/2 - 56, width-15, height/2 - 56, al_map_rgb(0,0,0), espessura);
-    al_draw_line(15, height/2 - 28, width-15, height/2 - 28, al_map_rgb(0,0,0), espessura);
-    al_draw_line(15, height/2, width-15, height/2, al_map_rgb(0,0,0), espessura);
-    al_draw_line(15, height/2 + 28, width-15, height/2 + 28, al_map_rgb(0,0,0), espessura);
-    al_draw_line(15, height/2 + 56, width-15, height/2 + 56, al_map_rgb(0,0,0), espessura);
-
-}
 
 int WhatLine(int posX, int posY){
     int line;
