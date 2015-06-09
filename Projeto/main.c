@@ -3,7 +3,11 @@
                 [Insira o nome do Jogo Aqui]
                             por
                 Sophia Klein e Sidarta Correa
+<<<<<<< HEAD
                 Batata
+=======
+                            Esse2
+>>>>>>> origin/master
 
 ******************************************************************/
 
