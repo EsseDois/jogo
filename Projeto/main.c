@@ -3,6 +3,7 @@
                 [Insira o nome do Jogo Aqui]
                             por
                 Sophia Klein e Sidarta Correa
+                Batata
 
 ******************************************************************/
 
@@ -29,8 +30,6 @@ struct Notas
 {
     int cx;
     int cy;
-    int bx;
-    int by;
     int raio;
 };
 
@@ -160,6 +159,8 @@ int main(void)
             if(ev.type == ALLEGRO_EVENT_MOUSE_BUTTON_DOWN)
             {
                 prev_state = state;
+                if(ev.mouse.button & 2)
+                    state = MENU;
                 if(nota.cx < width/2)
                     selected_line = WhatLine(nota.cx, nota.cy);
                     if(ev.mouse.button & 1 && selected_line == 3)
