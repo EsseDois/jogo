@@ -3,6 +3,7 @@
                 [Insira o nome do Jogo Aqui]
                             por
                 Sophia Klein e Sidarta Correa
+                            Esse2
 
 ******************************************************************/
 
